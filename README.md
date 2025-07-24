@@ -2,6 +2,8 @@
 
 一个基于ESP8266的1.54寸IPS屏幕加密货币价格显示器，实时显示SOL、ETH、BTC价格，具有赛博朋克风格的动态边框动画效果。
 
+![描述文字](https://github.com/RainNameless/SD2_Ticker/blob/main/SD2_Ticker%E7%A4%BA%E4%BE%8B.gif)
+
 ## 📱 产品特性
 
 - **实时价格显示**: 支持SOL、ETH、BTC三种主流加密货币价格
