@@ -15,8 +15,8 @@ TFT_eSPI tft = TFT_eSPI(); // 创建TFT对象
 // ========================
 // 2. WiFi配置
 // ========================
-const char* ssid = "zysjaq2.4";       // WiFi名称
-const char* password = "@zysjaq123123123";       // WiFi密码
+const char* ssid = "esp123";       // WiFi名称
+const char* password = "esp123123";       // WiFi密码
 bool wifiConnected = false;
 
 // ========================
