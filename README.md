@@ -30,9 +30,8 @@ TG ：t.me/SD2_Ticker
 - **外壳材质**: 注塑外壳
 
 ### 接口目前用的是okx 
-api.py 是okx的api接口，可以获取到sol、eth、btc的价格
-目前放在我的个人服务器上，所以需要修改api.py中的ip地址为你的服务器ip地址
-也可以用我的 就不需要你做什么更改 连上wifi就可以了 
+api.py 是okx的api接口采集服务因为国内无法直接访问我做了个中转，可以获取到sol、eth、btc的价格
+目前放在我的个人服务器上，所以需要自己部署修改mian中的ip地址为你的服务器ip地址 也可以用我的 就不需要你做什么更改 连上wifi就可以了 
 
 ## 🛠️ 开发环境搭建
 
@@ -55,12 +54,6 @@ git clone [项目地址]
 cd SD2_Ticker
 ```
 
-### 3. 安装依赖库
-
-项目依赖以下库（已在platformio.ini中配置）：
-- `TFT_eSPI@^2.5.0` - TFT显示屏驱动
-- `lv_arduino@^3.0.1` - LVGL图形库
-- `ArduinoJson@^6.20.0` - JSON解析库
 
 ## 📡 WiFi配置
 
@@ -76,6 +69,11 @@ const char* password = "esp123123";    // WiFi密码
 
 
 ## 🔄 编译与烧录
+
+项目依赖以下库（已在platformio.ini中配置）：
+- `TFT_eSPI@^2.5.0` - TFT显示屏驱动
+- `lv_arduino@^3.0.1` - LVGL图形库
+- `ArduinoJson@^6.20.0` - JSON解析库
 
 ### 编译项目
 
