@@ -1,0 +1,14 @@
+{
+  "wifi": {
+    "ssid": "esp123",
+    "password": "esp123123"
+  },
+  "display": {
+    "rotation": 0,
+    "brightness": 100
+  },
+  "api": {
+    "server": "103.244.88.116",
+    "port": 4399
+  }
+} 
